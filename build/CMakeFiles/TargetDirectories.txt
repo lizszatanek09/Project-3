@@ -1,0 +1,8 @@
+/mnt/c/ECE309/Project 3/build/CMakeFiles/harness_core.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/miniharness.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/test_p2.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/test_p3.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/test_loop.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/test.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/edit_cache.dir
+/mnt/c/ECE309/Project 3/build/CMakeFiles/rebuild_cache.dir

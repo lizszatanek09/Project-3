@@ -1,0 +1,140 @@
+Start testing: Oct 27 22:57 EDT
+----------------------------------------------------------
+1/4 Testing: p2_regression
+1/4 Test: p2_regression
+Command: "/mnt/c/ECE309/Project 3/build/test_p2"
+Directory: /mnt/c/ECE309/Project 3/build
+"p2_regression" start time: Oct 27 22:57 EDT
+Output:
+----------------------------------------------------------
+[PASS] conv_empty
+[PASS] conv_append_and_order
+[PASS] conv_holds_tool_role
+[PASS] conv_range_for
+[PASS] conv_copy_is_deep
+[PASS] conv_move_steals
+[PASS] scan_clean_text
+[PASS] scan_every_split
+[PASS] scan_one_byte_at_a_time
+[PASS] scan_false_alarm
+[PASS] harness_turn_limit
+[PASS] harness_eof
+[PASS] harness_sentinel_halts_and_is_hidden
+[PASS] harness_transcript_round_trip
+
+---- summary ----
+  conv           6 /   6
+  harness        4 /   4
+  scan           4 /   4
+  TOTAL         14 /  14
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"p2_regression" end time: Oct 27 22:57 EDT
+"p2_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: p3
+2/4 Test: p3
+Command: "/mnt/c/ECE309/Project 3/build/test_p3"
+Directory: /mnt/c/ECE309/Project 3/build
+"p3" start time: Oct 27 22:57 EDT
+Output:
+----------------------------------------------------------
+[PASS] reg_add_and_find
+[PASS] reg_duplicate_keeps_original
+[PASS] ws_rejects_parent_escape
+[PASS] calc_precedence
+[PASS] calc_division_by_zero
+[PASS] reg_null_rejected
+[PASS] reg_for_each_visits_each_once
+[PASS] reg_find_missing_tool
+[PASS] reg_size_updates
+10,000-tool registry results:
+  Bucket count: 16384
+  Load factor: 0.610352
+  Maximum probe length: 6
+[PASS] reg_scale_10000
+Weak-hash comparison:
+  Bucket count: 16384
+  Longest chain: 9000
+[PASS] reg_weak_hash_comparison
+[PASS] ws_accepts_normal_paths
+[PASS] ws_accepts_root_paths
+[PASS] ws_rejects_invalid_paths
+[PASS] ws_rejects_embedded_null
+[PASS] calc_subtraction_left_to_right
+[PASS] calc_division_left_to_right
+[PASS] calc_parentheses
+[PASS] calc_nested_expression
+[PASS] calc_negative_numbers
+[PASS] calc_decimal_result
+[PASS] calc_division_by_zero_expression
+[PASS] reg_pointer_stability_after_resize
+
+---- summary ----
+  calc           9 /   9
+  reg            9 /   9
+  ws             5 /   5
+  TOTAL         23 /  23
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"p3" end time: Oct 27 22:57 EDT
+"p3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: tool_loop
+3/4 Test: tool_loop
+Command: "/mnt/c/ECE309/Project 3/build/test_loop"
+Directory: /mnt/c/ECE309/Project 3/build
+"tool_loop" start time: Oct 27 22:57 EDT
+Output:
+----------------------------------------------------------
+[PASS] loop_model_tool_model_without_user_turn
+[PASS] loop_escape_attempt_is_an_error_not_a_crash
+[PASS] loop_chained_tool_rounds
+[PASS] loop_tool_step_limit
+[PASS] loop_without_registry_is_p2_behavior
+[PASS] loop_sentinel_wins_over_tool_call
+[PASS] loop_client_error
+[PASS] loop_system_message_lists_tools
+[PASS] loop_transcript_round_trip_with_tools
+
+---- summary ----
+  loop           9 /   9
+  TOTAL          9 /   9
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"tool_loop" end time: Oct 27 22:57 EDT
+"tool_loop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: e2e
+4/4 Test: e2e
+Command: "/usr/bin/bash" "/mnt/c/ECE309/Project 3/tests/e2e/run_e2e.sh" "/mnt/c/ECE309/Project 3/build/miniharness"
+Directory: /mnt/c/ECE309/Project 3
+"e2e" start time: Oct 27 22:57 EDT
+Output:
+----------------------------------------------------------
+[PASS] e2e_escape_attempt
+[PASS] e2e_greeting
+[PASS] e2e_malformed_calls
+[PASS] e2e_runaway
+[PASS] e2e_split_test
+[PASS] e2e_tools_demo
+[PASS] e2e_tools_list
+e2e: 7 / 7 passed
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"e2e" end time: Oct 27 22:57 EDT
+"e2e" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 27 22:57 EDT
